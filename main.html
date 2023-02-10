@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./styles/main-style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+</head>
+<!--
+    1сделать четвёртый блок с норм семантикой
+    2 добавить 2 и 3
+    3сделать анимацию мышки как на сайте
+    4красивый скрол бар и плавный замедленный
+    5 закинуть в гитхаб репозиторий сделать его публичным и кинуть михе ссылку
+
+-->
+
+<body>
+    <header>
+        <div class="center">
+            <nav>
+                <figure>
+                    <a><img src='media/logo.svg' alt="">
+                        <figcaption>Жилой комплекс</figcaption>
+                    </a>
+                </figure>
+                <ul>
+                    <li><a href='#'>О комплексе</a></li>
+                    <li><a href='#'>Район</a></li>
+                    <li><a href='#'>Каталог квартир</a></li>
+                    <li><a href='#'>Ипотека</a></li>
+                    <li><a href='#'>Контакты</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>Жилой комплекс <br>в историческом центре</h1>
+                <img class="mouse" src="media/mouse.svg" alt="">
+                <article>
+                    <figure><img src="media/placeholder.svg" alt="">
+                        <figcaption>
+                            Наб. реки Фонтанки 10-15
+                        </figcaption>
+                    </figure>
+                    <figure><img src="media/phone-call.svg" alt="">
+                        <figcaption>
+                            8 (812) 123-45-67
+                        </figcaption>
+                        
+                    </figure>
+                </article>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="picture logicalblock">
+            <figure>
+                <img class="imgblock" src="media/Group.svg" alt="">
+                <figcaption>
+                    Рядом исторические <br>парки и скверы
+                </figcaption>
+            </figure>
+            <figure>
+                <img class="imgblock" src="media/miha.svg" alt="">
+                <figcaption>
+                    Полностью <br>обустроенный
+                </figcaption>
+            </figure>
+            <figure>
+                <img class="imgblock" src="media/jopa.svg" alt="">
+                <figcaption>
+                    10 фонтанов <br>на территории
+                </figcaption>
+            </figure>
+            <figure>
+                <img class="imgblock" src="media/pizda.svg" alt="">
+                <figcaption>
+                    6км <br>велодорожек
+                </figcaption>
+            </figure>
+        </section>
+        <section class="kvadrat logicalblock">
+            <h2>Наши квартиры</h2>
+            <article>
+                <figure>
+                    <img class="imgblock" src="media/divan.png" alt="">
+                    <figcaption>Лофт — 3 этажа</figcaption>
+                </figure>
+                <figure>
+                    <img class="imgblock" src="media/divan.png" alt="">
+                    <figcaption>Лофт — 3 этажа<figcaption>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img class="imgblock" src="media/okno.png" alt="">
+                    <figcaption> Лофт — 2 этажа</figcaption>
+                </figure>
+                <figure>
+                    <img class="imgblock" src="media/okno.png" alt="">
+                    <figcaption>Лофт — 2 этажа</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <section class="kolbasa">
+        <main>
+            <h2>Хотите посмотреть?</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
+                    вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br>
+                    на латинице с начала XVI века. В то время некий безымянный <br>
+                    печатник создал большую коллекцию размеров и форм шрифтов, <br>
+                    используя Lorem Ipsum для распечатки образцов. </p>
+           <form>
+
+                <input type="text"name="name" placeholder="Ваше имя">
+           
+                <input type="tel"name="tel" placeholder="Ваш телефон">
+                <span>
+                    *Мы никому не передаем ваши данные.<br>
+                    И не сохраняем ваш номер в базу.
+                </span>
+               
+
+                <button>Посмотреть район</button>
+            </form>
+        </main>
+    </section>
+    <main>
+        <section>
+        <h2>Регион на карте</h2>
+        <img src="./media/kolbasa.png"width="max-widht" height="358px" usemap="#region" >
+
+        <map name="region">
+         <area shape="rect" coords="100,100,100,100" href="" alt="">
+        </map>
+    </section>
+    <section>
+        <h2>Есть вопросы?</h2>
+        <form class="end">
+            <span>
+                *Мы никому не передаем ваши данные.<br>
+                И не сохраняем ваш номер в базу.
+            </span>
+            <input type="text"name="name" placeholder="Ваше имя">
+       
+            <input type="tel"name="tel" placeholder="Ваш телефон">
+
+            <button>Посмотреть район</button>
+        </form>
+
+    </section>
+    </main>
+
+    <footer>
+        <main>
+        <figure>
+            <a><img src='media/logo.svg' alt="">
+                <figcaption>Жилой комплекс</figcaption>
+            </a>
+        </figure>
+     </main>
+    </footer>
+</body>
+
+</html>
