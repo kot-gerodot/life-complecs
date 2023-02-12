@@ -177,6 +177,7 @@ main p{
     line-height: 24px;
     margin: 50px 0;
     float: left;
+    top:10px;
 }
 .kolbasa main{
  margin: 180px auto;
@@ -184,9 +185,9 @@ main p{
 form{
     position: relative;
     float: left;
-   width: 640px;
+   width: 580px;
    height: 140px;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 }
 input{
     position: relative;
@@ -210,13 +211,19 @@ button{
     height: 50px;
     background: #D4C17F;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
     font-family: var(--font-family-main);
     font-weight:var(--font-weight-heading) ;
     font-size: 16px;
     color: var(--color-text-main);
 }
-span{
+.cartography{
+    margin: 150px 0 200px 0;
+}
+.cartography h2{
+    margin:0 0  100px 0;
+}
+ span p{
     position: relative;
     display: inline-block;
     width: 255px;
@@ -228,28 +235,84 @@ span{
     font-size: 13px;
     line-height: var(--line-height-main);
     margin: 0 15px;
+    top:10px;
+}
+.bottom{
+
+    height: 200px;
 }
 .end{
-    width: max-content;
-
-   display: block;
+      width: max-content;
+   
 }
 footer{
     background-color: #2D343C;
-    display: block;
+    display: inline-block;
+    width: 100%;
     position: relative;
+    height: 272px;
 }
 footer figure{
-    margin: 20px;
-    display: inline-block;
-
+    position: relative;
+    float: left;
+     margin: 60px 0 0 0;
 }
 footer figcaption{
     font-weight: var(--font-weight-main);
     letter-spacing: 0.12em;
 }
-main section{
-    height: max-content;
+footer ul{
+    margin: 57px 0 0 170px ;
+    float: left;
+   position: relative;
 }
+footer ul li {
+    position: relative;
+    margin: 15px 0;
+}
+li p{
+    margin: 0 0 15px 0;
+    line-height: var(--line-height-main);
+    font-weight: var(--font-weight-main);
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-main);
+}
+.social_networks{
+    float: right;
+    display: block;
+    margin: 0 45px;
 
+}
+.social_networks li{
+    position: relative;
+    margin: 15px;
+    display: inline-block;
+
+}
+.numbers{
+    position: absolute;
+    font-family: var(--font-family-block-title);
+    font-weight:var(--font-weight-heading) ;
+    font-size: 400px;
+    line-height: 533px;
+    color: var(--color-text-main);
+    opacity: 0.02;
+}
+.two{
+    left: 1025px;
+    top: 677px;
+
+}
+.three{
+    left: 0px;
+    top: 1090px;
+}
+.four{
+    left: 989px;
+    top: 2603px;
+}
+.five{
+    left: 0px;
+    top: 3226px;
+}
 
