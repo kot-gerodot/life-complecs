@@ -223,7 +223,7 @@ button{
 .cartography h2{
     margin:0 0  100px 0;
 }
- span p{
+ span {
     position: relative;
     display: inline-block;
     width: 255px;
@@ -233,6 +233,7 @@ button{
     font-family: var(--font-family-main);
     font-weight: var(--font-weight-main);
     font-size: 13px;
+    color:var( --color-text-main);
     line-height: var(--line-height-main);
     margin: 0 15px;
     top:10px;
@@ -269,14 +270,13 @@ footer ul{
 footer ul li {
     position: relative;
     margin: 15px 0;
-}
-li p{
-    margin: 0 0 15px 0;
     line-height: var(--line-height-main);
     font-weight: var(--font-weight-main);
     font-family: var(--font-family-main);
     font-size: var(--font-size-main);
+    color:var( --color-text-main);
 }
+
 .social_networks{
     float: right;
     display: block;
