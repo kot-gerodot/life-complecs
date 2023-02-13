@@ -197,6 +197,12 @@ input{
    background:rgb(255, 255, 255,0.2);
    display: inline-block;
    margin: 0 15px 30px;
+   color: var(--color-text-main);
+   font-family: var(--font-family-main);
+   font-weight: var(--font-weight-main);
+   font-size: var(--font-size-main);
+   border: 0;
+   outline: none;
    
 }
 ::placeholder{
@@ -211,11 +217,13 @@ button{
     height: 50px;
     background: #D4C17F;
     display: inline-block;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 15px;
     font-family: var(--font-family-main);
     font-weight:var(--font-weight-heading) ;
     font-size: 16px;
     color: var(--color-text-main);
+    outline: none;
+    border: 0;
 }
 .cartography{
     margin: 150px 0 200px 0;
@@ -246,12 +254,13 @@ button{
       width: max-content;
    
 }
+
 footer{
     background-color: #2D343C;
-    display: inline-block;
-    width: 100%;
     position: relative;
-    height: 272px;
+    bottom: -10px;
+    width: 100%;
+    display: inline-block;
 }
 footer figure{
     position: relative;
