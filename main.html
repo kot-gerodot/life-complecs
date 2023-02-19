@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
     <link rel="stylesheet" href="./styles/main-style.css">
+    <link rel="stylesheet" href="./styles/adaptive.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
@@ -14,7 +15,7 @@
 </head>
 <body>
     <header>
-        <div class="center">
+        <main>
             <nav>
                 <figure>
                     <a><img src='media/logo.svg' alt="">
@@ -29,9 +30,9 @@
                     <li><a href='#'>Контакты</a></li>
                 </ul>
             </nav>
-            <section>
+             <section>
                 <h1>Жилой комплекс <br>в историческом центре</h1>
-                <img class="mouse" src="media/mouse.svg" alt="">
+                <img class="mouse" src="media/mouse.svg" alt=""> 
                 <article>
                     <figure><img src="media/placeholder.svg" alt="">
                         <figcaption>
@@ -43,16 +44,17 @@
                             8 (812) 123-45-67
                         </figcaption>
                         
-                    </figure>
+                    </figure> 
                 </article>
             </section>
-        </div>
+            
+        </main>
     </header> 
-    <p class="two numbers">
-        II
-    </p>
-    <main>
+
+   <main>
+
         <section class="picture logicalblock">
+            <img class="two numbers" src="media/two.svg" alt=""> 
             <figure>
                 <img class="imgblock" src="media/Group.svg" alt="">
                 <figcaption>
@@ -77,13 +79,13 @@
                     6км <br>велодорожек
                 </figcaption>
             </figure>
+           
         </section>
-    </main>
-    <p class="three numbers">
-        III
-    </p>
-    <main>
+   
+   
         <section class="kvadrat logicalblock">
+            <img class="three numbers"  src="media/three.svg" alt="">
+            
             <h2>Наши квартиры</h2>
             <article>
                 <figure>
@@ -107,8 +109,9 @@
             </article>
         </section>
     </main>
-    <section class="kolbasa">
+     <section class="kolbasa">
         <main>
+
             <h2>Хотите посмотреть?</h2>
                 <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>
                     вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br>
@@ -130,44 +133,49 @@
             </form>
         </main>
     </section>
-    <p class="four numbers">
-        IV
-    </p>
     <main>
+    
         <section class="cartography">
+             <img class="four numbers" src="media/four.svg" alt=""> 
         <h2>Регион на карте</h2>
         <map name="region">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac0467f5547df1c5def92c09d8c93c4985c8a1d8c1e558335ed2f1d4ac59434b8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </map>
     </section>
-    </main>
-    <p class="five numbers">
-        V
-    </p>
-    <main>
+    
+    
     <section class="bottom">
+         <img class="five numbers"  src="media/five.svg" alt=""> 
+        
         <h2>Есть вопросы?</h2>
         <form class="end">
-            <span>
+            <span class="babka1">
                 *Мы никому не передаем ваши данные.<br>
                 И не сохраняем ваш номер в базу.
             </span>
             <input type="text"name="name" placeholder="Ваше имя">
        
             <input type="tel"name="tel" placeholder="Ваш телефон">
+            <span class="babka2">
+                *Мы никому не передаем ваши данные.<br>
+                И не сохраняем ваш номер в базу.
+            </span>
 
             <button>Посмотреть район</button>
         </form>
 
     </section>
     </main>
+
     <footer>
         <main>
+           
         <figure>
             <a><img src='media/logo.svg' alt="">
                 <figcaption>Жилой комплекс</figcaption>
             </a>
         </figure>
+        <div class="popa">
             <ul>
                 <li><a href='#'>О комплексе</a></li>
                 <li><a href='#'>Район</a></li>
@@ -182,21 +190,22 @@
                 <li><a href='#'>Ипотека</a></li>
                 <li><a href='#'>Контакты</a></li>
             </ul>
+        </div>
             <ul>
                 <li>Адрес:Наб. реки Фонтанки 10-15</li>
                 <li>Телефон: 8 (812) 123-45-67</li>
                 <li>Отдел продаж: 10:00 - 20:00</li>
                 <li>E-mail: href='#'vip@housevip.ru</li>
-            </ul>
-            <ul class="social_networks">
+                <div class="papa">
                 <li><a href='#'><img src="media/YouTube.svg" alt=""></a></li> 
                 <li><a href='#'><img src="media/vk.svg" alt=""></a></li>
                 <li><a href='#'><img src="media/facebook.svg" alt=""></a></li>
                 <li><a href='#'><img src="media/instagram.svg" alt=""></a></li>
+                </div>
             </ul>
-
+        
      </main>
-    </footer>
+    </footer> 
 
 </body>
 

@@ -1,0 +1,255 @@
+
+
+@media screen and (max-width: 800px )  {
+    nav{
+        display: none;
+           }
+
+    header{
+        height: 80vh;
+
+    }
+   
+
+    h1 {
+        font-size: 6vw;
+        line-height: 40px;
+        
+    }
+    header article figure figcaption{
+        font-size: 2vw;
+        line-height: 2vh;
+    
+        
+    }
+    header section article figure img {
+        width: 2vw;
+    }
+    .picture figure img{
+    
+        width: 8vw;
+        
+    }
+    .picture figure {
+
+        margin: 0 3vw;
+    
+    }
+    .picture figure figcaption{
+        font-size: 2vw;
+        line-height: 2vh;
+    }
+     h2{
+        font-size: 4vw;
+    }
+
+    .kvadrat figure img {
+        width: 47vw;
+        height: auto;
+
+    }
+    .kvadrat figure{
+        margin: 0.5vw 0.5vh;
+    }
+    .kvadrat figure figcaption {
+        font-size: 3vw;
+        margin: 3vw;
+        display: inline-block;
+    }
+    .kolbasa main {
+        margin: 10vw auto;
+    }
+    main p{
+        font-size: 2.5vw;
+        margin: 4.5vh 10px;
+    }
+    .bottom{
+      margin: 100px auto 50px;
+    }
+ .end{
+   margin: 20px auto;
+    position: relative;
+    display: block;
+    width: 545px;
+    height: 140px;
+    max-width: 100%;
+ }
+ .bottom h2{
+  margin: auto;
+  width: max-content;
+ }
+ span {
+  float: left;
+ }
+ .babka1{
+  display: none;
+}
+.babka2{
+  display: block;
+}
+footer main{
+  width: max-content;
+  margin: auto;
+  height: 200px;
+}
+.popa ul {
+  margin: 5vh 0 0 4vw;
+}
+footer main  ul {
+  margin: 5vh 0 0 4vw;
+}
+.popa ul li a{
+  font-size: 1.6vw;
+  margin: 1vh 0;
+}
+footer main  ul li {
+  font-size: 1.6vw;
+  margin: 1vh 0;
+}
+.papa li{
+  margin: 0 2.2vw 0 0;
+}
+footer main figure{
+  margin: 9vh 2vw 0 1vw;
+}
+.two{
+  left: 41vw;
+}
+.four{
+  left: 25vw;
+}
+}
+  @media (min-width:801px) and (max-width: 1000px )  {
+    .kvadrat figure img {
+        width: 380px;
+        height: auto;
+        
+    }
+    .four{
+      left: 48vw;
+
+    }
+    .two{
+      left: 58vw;
+    }
+
+  }
+  @media (min-width:801px) and (max-width: 1120px )  {
+    main p{
+        font-size: 1.4vw;
+        line-height: 2.3vw;
+        margin: 6vh 1vw;
+  }
+  .kolbasa {
+    height: 490px;
+  }
+  
+  form{
+    width: 51vw;
+    height: 140px;
+    margin: 30px 0 0 0;
+  }
+  input{
+    width: 22.7vw;
+   height: 50px;
+   margin: 0 0px 3vh 15px;
+  
+
+ }
+  ::placeholder{
+    font-size: 1.4vw;
+    line-height: 2.3vw;
+    
+  }
+  button{
+    width: 22.7vw;
+    height: 50px;
+    margin: 0 0 0 15px;
+    font-size: 1.4vw;
+    line-height: 2.3vw;
+
+  }
+  span {
+    width: 22.7vw;
+    height: 50px;
+    margin: 0 0px 0px 15px;
+    font-size: 1.2vw;
+    line-height: 2vw;
+  }
+  footer main{
+    width: max-content;
+    margin: auto;
+  }
+  footer main figure{
+    margin:100px 20px 0 25px;
+  }
+  footer main  ul {
+    margin: 5vh 0 0 6vw;
+  }
+ .popa ul {
+    margin: 5vh 0 0 6vw;
+  }
+
+
+  }
+  @media screen and (max-width: 555px){
+    .kolbasa{
+        height: 500px;
+    }
+    input{
+      
+        width: 45vw;
+       height: 50px;
+       margin: 0 2vw 3vh;
+     }
+     ::placeholder{
+       font-size: 3vw;
+       line-height: 2.3vw;
+     }
+     button{
+       width: 45vw;
+       height: 50px;
+       margin: 0 2vw;
+       font-size: 3vw;
+       line-height: 2.3vw;
+     }
+     span {
+       width: 45vw;
+       height: 50px;
+       margin: 0 2vw;
+       font-size: 2.3vw;
+       line-height: 4vw;
+       
+     }
+  
+    footer main{
+      width: max-content;
+      margin: auto;
+      height: 200px;
+    }
+     .popa ul {
+      display: none;
+    }
+    .papa {
+      display: block;
+    }
+    .papa li{
+      margin: 0 5vw 0 0;
+    }
+    footer main figure{
+      margin: 0 0 0 1vw;
+    }
+    footer main ul{
+      margin: 1vh 0 0 10vw;
+    }
+    footer main ul li {
+      font-size: 2.7vw;
+      margin: 1.8vh 0;
+    }
+    footer main figure{
+      margin: 9vh 2vw 0 1vw;
+    }
+    .numbers{
+      display: none;
+    }
+    }

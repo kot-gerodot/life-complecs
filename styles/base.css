@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body {
     background: var(--color-background);
@@ -20,8 +21,9 @@ body {
     scroll-behavior: smooth;
    
 }
-.center,
+
 main {
+    position: relative;
     margin: auto;
     width: 100%;
     max-width: 1150px;
@@ -70,8 +72,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    line-height: 48px;
-   
+    margin: 0 10px;
 }
 
 .logicalblock {

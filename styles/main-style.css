@@ -1,7 +1,5 @@
 @import url(./base.css);
 
-
-
 header {
     position: relative;
     width: 100%;
@@ -13,16 +11,19 @@ header {
 
 nav ul {
     float: right;
-    margin: 0 auto;
+     
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 20px;
-}
+    nav ul li {
+
+        display: inline-block;
+        margin: 5vh 2vw;
+    }
+    
 
 nav figure {
-    margin: 20px;
+    margin: 5vh 3vw;
+
     display: inline-block;
 }
 
@@ -30,28 +31,31 @@ nav figure a figcaption {
     font-weight: var(--font-weight-main);
     letter-spacing: 0.12em;
 }
-
-h1 {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    margin: 40vh auto;
-    text-align: center;
-}
 @keyframes pepega{
     0%{
-     top:55vh;
+     top:15vh;
 
     }
     50%{
-       top: 60vh;
+       top: 20vh;
     }
 
     100%{
-    top: 55vh;
+    top: 15vh;
     }
+}
+header main section{
+    position: relative;
+    top:0;
+}
+h1 {
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 20vh auto 0;
+    text-align: center;
 }
 .mouse{
     position: relative;
@@ -61,21 +65,21 @@ h1 {
     animation-duration: 5s;
     animation-name: pepega;
     animation-iteration-count:infinite;
+    max-width: 100%;
 
 }
 
 header section article {
     position: relative;
     width: max-content;
-    margin: 0 auto;
-    top: 70vh;
+    margin: 29vh auto 0;
 
 }
 
 header section article figure {
     top: 0;
     left: 0;
-    margin: 0 100px 0 0;
+    margin: 0 8vw 0 0;
     width: max-content;
     height: auto;
     float: left;
@@ -85,7 +89,7 @@ header section article figure {
 header section article figure img {
     top: 0;
     left: 0;
-    margin: 0 15px 0 0;
+    margin: 0 1vw 0 0;
     width: max-content;
     float: left;
     display: block;
@@ -94,7 +98,7 @@ header section article figure img {
 
 }
 
-header section article figure figcaption {
+header article figure figcaption {
     color: var(--color-text-main);
     font-family: var(--font-family-main);
     width: max-content;
@@ -105,19 +109,21 @@ header section article figure figcaption {
 }
 
 .picture{
-    margin: 100px auto;
+    margin: 50px auto;
+    position: relative;
+    max-width: 100%;
+ 
 }
 .picture figure {
     display: inline-block;
-    margin: 0 3vw;
-    top: 100px;
+    margin: 0 2vw;
 
 }
 
 .picture figure img {
-    margin: 30px auto;
-    height: 80px;
-    width: auto;
+    margin: auto;
+    height: auto;
+    width: 80px;
 
 }
 
@@ -132,33 +138,35 @@ header section article figure figcaption {
 
 }
 .kvadrat{
-    margin: 100px auto 0;
+    margin: 10vw auto 0;
+    position: relative;
+    max-width: 100%;
 }
 .kvadrat h2{
-    margin: 100px 0;
+    margin: 4vh 0;
 }
 
 .kvadrat figure {
+    position: relative;
     display: inline-block;
+    margin: 1vw 1vh;
 }
 
 .kvadrat figure figcaption {
     color: var(--color-text-main);
     font-family: var(--font-family-main);
-    position: relative;
-    bottom: 80px;
-    left: 50px;
+    position: absolute;
     font-weight: var(--font-weight-main);
     font-size: 24px;
-    line-height: 28px;
+    bottom: 0;
+    margin: 26px;
 
 }
 
 .kvadrat figure img {
-
-    margin: 0.5vw 0;
-    height: 100%;
-    width: 100%;
+    width: 480px;
+    height: auto;
+    
 }
 
 .kolbasa {
@@ -175,19 +183,20 @@ main p{
     font-weight: var(--font-weight-main);
     font-size: 16px;
     line-height: 24px;
-    margin: 50px 0;
+    margin: 50px 10px;
     float: left;
-    top:10px;
 }
 .kolbasa main{
- margin: 180px auto;
+margin: 150px auto;
+
 }
 form{
     position: relative;
-    float: left;
-   width: 580px;
+    display: inline-block;
+    width: 545px;
    height: 140px;
     margin: 30px 0 0 0;
+    max-width: 100%;
 }
 input{
     position: relative;
@@ -195,8 +204,8 @@ input{
    height: 50px;
    text-align: center;
    background:rgb(255, 255, 255,0.2);
-   display: inline-block;
-   margin: 0 15px 30px;
+   float: left;
+   margin: 0 0px 30px 15px;
    color: var(--color-text-main);
    font-family: var(--font-family-main);
    font-weight: var(--font-weight-main);
@@ -210,30 +219,11 @@ input{
     font-family: var(--font-family-main);
    font-weight: var(--font-weight-main);
    font-size: var(--font-size-main);
+  
 }
-button{
+span {
     position: relative;
-    width: 255px;
-    height: 50px;
-    background: #D4C17F;
-    display: inline-block;
-    margin: 0 0 0 15px;
-    font-family: var(--font-family-main);
-    font-weight:var(--font-weight-heading) ;
-    font-size: 16px;
-    color: var(--color-text-main);
-    outline: none;
-    border: 0;
-}
-.cartography{
-    margin: 150px 0 200px 0;
-}
-.cartography h2{
-    margin:0 0  100px 0;
-}
- span {
-    position: relative;
-    display: inline-block;
+    float: left;
     width: 255px;
     height: 50px;
     text-align: center;
@@ -243,40 +233,82 @@ button{
     font-size: 13px;
     color:var( --color-text-main);
     line-height: var(--line-height-main);
-    margin: 0 15px;
+    margin: 0 0px 0px 15px;
     top:10px;
 }
-.bottom{
+button{
+    position: relative;
+    width: 255px;
+    height: 50px;
+    background: #D4C17F;
+    float: left;
+    margin: 0 0 0 15px;
+    font-family: var(--font-family-main);
+    font-weight:var(--font-weight-heading) ;
+    font-size: 16px;
+    color: var(--color-text-main);
+    outline: none;
+    border: 0;
+}
+.babka2{
+    display: none;
+}
 
+
+.cartography{
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+}
+.cartography h2{
+    margin:0 0  50px 0;
+}
+ 
+.bottom{
+ margin: 200px auto 50px;
     height: 200px;
+    position: relative;
 }
 .end{
       width: max-content;
+      max-width: 100%;
    
 }
 
 footer{
     background-color: #2D343C;
     position: relative;
-    bottom: -10px;
     width: 100%;
-    display: inline-block;
+    display: block;
 }
-footer figure{
+footer main{
+    height: 238px;
+}
+footer main  figure{
     position: relative;
-    float: left;
-     margin: 60px 0 0 0;
+   float: left;
+     margin: 100px 0 0 25px;
+     
 }
-footer figcaption{
+footer main  figcaption{
     font-weight: var(--font-weight-main);
     letter-spacing: 0.12em;
 }
-footer ul{
-    margin: 57px 0 0 170px ;
+footer main  ul{
+    margin: 35px 0 0 150px ;
     float: left;
    position: relative;
 }
-footer ul li {
+.popa{
+    position: relative;
+    float: left;
+}
+.popa ul{
+    margin: 35px 0 0 150px ;
+    float: left;
+   position: relative;
+}
+footer main ul li {
     position: relative;
     margin: 15px 0;
     line-height: var(--line-height-main);
@@ -286,42 +318,32 @@ footer ul li {
     color:var( --color-text-main);
 }
 
-.social_networks{
-    float: right;
-    display: block;
-    margin: 0 45px;
 
-}
-.social_networks li{
+.papa li{
     position: relative;
-    margin: 15px;
+    margin: 0 27px 15px 0;
     display: inline-block;
 
 }
 .numbers{
     position: absolute;
-    font-family: var(--font-family-block-title);
-    font-weight:var(--font-weight-heading) ;
-    font-size: 400px;
-    line-height: 533px;
-    color: var(--color-text-main);
-    opacity: 0.02;
 }
-.two{
-    left: 1112px;
-    top: 667px;
 
+.two{
+    top:-8vh;
+    left: 52vw;
 }
 .three{
-    left: 0px;
-    top: 1090px;
+        top: 8vh;
+    left: -11vw;
 }
 .four{
-    left: 989px;
-    top: 2603px;
+    top: 0;
+    left: 57vw;
 }
 .five{
-    left: 35px;
-    top: 3226px;
+    top: -8vh;
+    left: -9vw;
 }
+
 
